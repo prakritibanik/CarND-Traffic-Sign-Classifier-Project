@@ -1,0 +1,6 @@
+model_checkpoint_path: "LeNetTraffic.ckpt-333"
+all_model_checkpoint_paths: "LeNetTraffic.ckpt-245"
+all_model_checkpoint_paths: "LeNetTraffic.ckpt-258"
+all_model_checkpoint_paths: "LeNetTraffic.ckpt-274"
+all_model_checkpoint_paths: "LeNetTraffic.ckpt-307"
+all_model_checkpoint_paths: "LeNetTraffic.ckpt-333"
