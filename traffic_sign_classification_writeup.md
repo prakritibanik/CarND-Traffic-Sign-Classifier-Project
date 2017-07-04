@@ -38,8 +38,6 @@ The goals / steps of this project are the following:
 [image19]: ./new_images/00003_33.png "test4"
 [image20]: ./new_images/00008_25.png "test5"
 
-[image21]: ./TFD/softmax.png "softmax"
-
 Here is a link to my [project code](https://github.com/prakritibanik/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ###Data Set Summary & Exploration
@@ -151,31 +149,21 @@ The second image might be difficult to classify because of the presence of shdow
 
 Here are the results of the prediction:
 
-* Image: Vehicles over 3.5 metric tons prohibited, Prediction:
-* Image: Speed limit (30km/h), Prediction:
-* Image: Keep right, Prediction: 
-* Image: Turn right ahead, Prediction
-* Image: Keep right, Prediction
-* Image: General caution, Prediction
-* Image: Road work, Prediction
-* Image: Ahead only, Prediction
-* Image: Speed limit (100km/h), Prediction
-* Image: Speed limit (70km/h), Prediction
-* Image: Double curve, Prediction
-* Image: Dangerous curve to the right, Prediction
-* Image: Pedestrians, Prediction
-* Image: Keep right, Prediction
-* Image: Turn right ahead, Prediction
+* Image: Speed limit (60km/h), Prediction: Ahead only
+* Image: Right-of-way at the next intersection, Prediction: Road work
+* Image: Speed limit (30km/h), Prediction: Keep right
+* Image: Yield, Prediction: Yield
+* Image: No passing, Prediction: No passing
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
 
-The code for training and evaluation of my model is located in the 7th, 8th and 9th cell of the Ipython notebook
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%.
+
+The code for training and evaluation of my model is located in the 57th, 60th cell of the Ipython notebook
 
 ####3. Certainty of the model in predicting new image
 From the plot below we can see each of the 15 new images by looking at the softmax probabilities for each prediction. Top 5 softmax probabilities for each image along with the sign type of each probability is depicted in the image.
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+<img src="TFD/softmax.png" width="480" alt="softmax" />
 
-![alt text][image21]
 
 
